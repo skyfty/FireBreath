@@ -1,0 +1,9 @@
+{
+  "name": "dwale",
+  "version": "${FBSTRING_PLUGIN_VERSION}",
+  "description": "read card",
+
+	"plugins": [
+    { "path": "npdwale.dll", "public": true }
+  ]
+}

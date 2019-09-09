@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F8E3E764-003E-3F9F-95AE-B2C92139C3DF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>NpapiCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\workspace\FireBreath\build\NpapiCore\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NpapiCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NpapiCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\workspace\FireBreath\build\NpapiCore\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NpapiCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NpapiCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\workspace\FireBreath\build\NpapiCore\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">NpapiCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">NpapiCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\workspace\FireBreath\build\NpapiCore\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NpapiCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NpapiCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\config;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPJavascriptObject.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPObjectAPI.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiBrowserHost.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPVariantUtil.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPlugin.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginFactory.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiStream.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiTypes.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiFactoryDefinitions.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\Win\NpapiBrowserHostAsyncWin.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\precompiled_headers.h" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NPJavascriptObject.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NPObjectAPI.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiBrowserHost.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPlugin.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule_NPP.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiStream.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiTypes.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\Win\NpapiBrowserHostAsyncWin.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\precompiled_headers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/system/boost_system.vcxproj">
+      <Project>771EA940-429A-30F8-9FDF-5EE2A15D7F1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/thread/boost_thread.vcxproj">
+      <Project>84AFFAC8-F929-3579-9DCA-412BE6EF570F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

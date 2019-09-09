@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B509AC26-8FDE-3751-99A3-6A760B19BB57}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Dwale</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\workspace\FireBreath\build\bin\dwale\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dwale.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">npdwale</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\workspace\FireBreath\build\bin\dwale\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dwale.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">npdwale</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\workspace\FireBreath\build\bin\dwale\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">dwale.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">npdwale</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\workspace\FireBreath\build\bin\dwale\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">dwale.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">npdwale</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\build\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR="Debug";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR=\"Debug\";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\build\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\build\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;psapi.lib;..\ActiveXCore\Debug\ActiveXCore.lib;..\PluginCore\Debug\PluginCore.lib;..\PluginAuto\Debug\DWA_PluginAuto.lib;..\NpapiCore\Debug\NpapiCore.lib;..\ScriptingCore\Debug\ScriptingCore.lib;..\PluginCore\Debug\PluginCore.lib;..\boost\libs\thread\Debug\boost_thread.lib;..\boost\libs\system\Debug\boost_system.lib;psapi.lib;Wininet.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/atlmfc/lib</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/FireBreath/build/projects/dwale/Debug/npdwale.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/workspace/FireBreath/build/dwale/gen/FireBreathWin.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/workspace/FireBreath/build/bin/dwale/Debug/npdwale.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR="Release";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR=\"Release\";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;psapi.lib;..\ActiveXCore\Release\ActiveXCore.lib;..\PluginCore\Release\PluginCore.lib;..\PluginAuto\Release\DWA_PluginAuto.lib;..\NpapiCore\Release\NpapiCore.lib;..\ScriptingCore\Release\ScriptingCore.lib;..\PluginCore\Release\PluginCore.lib;..\boost\libs\thread\Release\boost_thread.lib;..\boost\libs\system\Release\boost_system.lib;psapi.lib;Wininet.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/atlmfc/lib</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/FireBreath/build/projects/dwale/Release/npdwale.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>D:/workspace/FireBreath/build/dwale/gen/FireBreathWin.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/workspace/FireBreath/build/bin/dwale/Release/npdwale.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR="MinSizeRel";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR=\"MinSizeRel\";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;psapi.lib;..\ActiveXCore\MinSizeRel\ActiveXCore.lib;..\PluginCore\MinSizeRel\PluginCore.lib;..\PluginAuto\MinSizeRel\DWA_PluginAuto.lib;..\NpapiCore\MinSizeRel\NpapiCore.lib;..\ScriptingCore\MinSizeRel\ScriptingCore.lib;..\PluginCore\MinSizeRel\PluginCore.lib;..\boost\libs\thread\MinSizeRel\boost_thread.lib;..\boost\libs\system\MinSizeRel\boost_system.lib;psapi.lib;Wininet.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/atlmfc/lib</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/FireBreath/build/projects/dwale/MinSizeRel/npdwale.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>D:/workspace/FireBreath/build/dwale/gen/FireBreathWin.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/workspace/FireBreath/build/bin/dwale/MinSizeRel/npdwale.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR="RelWithDebInfo";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;_ATL_STATIC_REGISTRY;CMAKE_INTDIR=\"RelWithDebInfo\";dwale_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath;D:\workspace\FireBreath\src\3rdParty\gecko-sdk\includes;D:\workspace\FireBreath\src\NpapiCore;D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginAuto\Win;D:\workspace\FireBreath\src\PluginAuto;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\dwale\gen;D:\workspace\FireBreath\src\3rdParty\boost;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;psapi.lib;..\ActiveXCore\RelWithDebInfo\ActiveXCore.lib;..\PluginCore\RelWithDebInfo\PluginCore.lib;..\PluginAuto\RelWithDebInfo\DWA_PluginAuto.lib;..\NpapiCore\RelWithDebInfo\NpapiCore.lib;..\ScriptingCore\RelWithDebInfo\ScriptingCore.lib;..\PluginCore\RelWithDebInfo\PluginCore.lib;..\boost\libs\thread\RelWithDebInfo\boost_thread.lib;..\boost\libs\system\RelWithDebInfo\boost_system.lib;psapi.lib;Wininet.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/atlmfc/lib</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workspace/FireBreath/build/projects/dwale/RelWithDebInfo/npdwale.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ModuleDefinitionFile>D:/workspace/FireBreath/build/dwale/gen/FireBreathWin.def</ModuleDefinitionFile>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/workspace/FireBreath/build/bin/dwale/RelWithDebInfo/npdwale.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\dwale\dwale.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\dwale\dwaleAPI.h" />
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\rcgen.sh.in" />
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\axplugin_defs.h" />
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\COM_config.h" />
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\config.h" />
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\resource.h" />
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\dwale.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\dwaleAPI.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\Factory.cpp" />
+    <ResourceCompile Include="D:\workspace\FireBreath\build\dwale\gen\firebreathWin.rc" />
+    <None Include="D:\workspace\FireBreath\src\dwale\PluginConfig.cmake" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\ExportList_plugin.txt" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\FBControl.htm" />
+    <None Include="D:\workspace\FireBreath\build\dwale\gen\FBControl.rgs" />
+    <None Include="D:\workspace\FireBreath\build\dwale\gen\FireBreathWin.rgs" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\global" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\README.txt" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\version_script.txt" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\global\axplugin_defs.inc" />
+    <None Include="D:\workspace\FireBreath\src\dwale\Win\projectDef.cmake" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/workspace/FireBreath/build/ActiveXCore/ActiveXCore.vcxproj">
+      <Project>CF8464EB-9095-38ED-9391-49D6D7E77134</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/projects/dwale/PluginAuto/DWA_PluginAuto.vcxproj">
+      <Project>FD3D80E3-A5C7-3B60-9FA1-7D7F90F46FEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/NpapiCore/NpapiCore.vcxproj">
+      <Project>F8E3E764-003E-3F9F-95AE-B2C92139C3DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/PluginCore/PluginCore.vcxproj">
+      <Project>E4212DBC-1717-3359-AE4B-C082AD69D722</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/ScriptingCore/ScriptingCore.vcxproj">
+      <Project>B7502081-89AA-3A4A-9BF6-ACF8756D2AC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/system/boost_system.vcxproj">
+      <Project>771EA940-429A-30F8-9FDF-5EE2A15D7F1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/thread/boost_thread.vcxproj">
+      <Project>84AFFAC8-F929-3579-9DCA-412BE6EF570F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

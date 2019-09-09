@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NPJavascriptObject.cpp">
+      <Filter>NpapiScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NPObjectAPI.cpp">
+      <Filter>NpapiScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiBrowserHost.cpp">
+      <Filter>NpapiScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPlugin.cpp">
+      <Filter>NpapiPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule.cpp">
+      <Filter>NpapiPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule_NPP.cpp">
+      <Filter>NpapiPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiStream.cpp">
+      <Filter>NpapiPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\NpapiTypes.cpp">
+      <Filter>NpapiPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\Win\NpapiBrowserHostAsyncWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\NpapiCore\precompiled_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPJavascriptObject.h">
+      <Filter>NpapiScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPObjectAPI.h">
+      <Filter>NpapiScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiBrowserHost.h">
+      <Filter>NpapiScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NPVariantUtil.h">
+      <Filter>NpapiScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPlugin.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginFactory.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiPluginModule.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiStream.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiTypes.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\NpapiFactoryDefinitions.h">
+      <Filter>NpapiPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\Win\NpapiBrowserHostAsyncWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\NpapiCore\precompiled_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12F29196-644E-38E0-B3BA-C3A6A074205A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5868B3B-5AEF-34B0-A552-ABAA48EDB6DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpapiScripting">
+      <UniqueIdentifier>{A1B4877A-9211-36ED-8F17-430918FA6878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NpapiPlugin">
+      <UniqueIdentifier>{271CE666-6A98-3DB9-A0F2-DEEA52E255E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{D52EB22B-7B78-3B21-BAF9-11ACE0BF7D9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

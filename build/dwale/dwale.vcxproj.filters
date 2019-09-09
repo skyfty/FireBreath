@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\dwaleAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\dwale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\dwale\Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\rcgen.sh.in" />
+    <ClInclude Include="D:\workspace\FireBreath\src\dwale\dwale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\dwale\dwaleAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\resource.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\config.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\COM_config.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\build\dwale\gen\global\axplugin_defs.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\workspace\FireBreath\src\dwale\PluginConfig.cmake" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\ExportList_plugin.txt" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\global" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\README.txt" />
+    <None Include="D:\workspace\FireBreath\src\dwale\Win\projectDef.cmake" />
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\version_script.txt">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="D:\workspace\FireBreath\build\dwale\gen\FireBreathWin.rgs">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="D:\workspace\FireBreath\build\dwale\gen\FBControl.rgs">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\FBControl.htm">
+      <Filter>Generated</Filter>
+    </None>
+    <None Include="D:\workspace\FireBreath\src\dwale\gen\global\axplugin_defs.inc">
+      <Filter>Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12F29196-644E-38E0-B3BA-C3A6A074205A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5868B3B-5AEF-34B0-A552-ABAA48EDB6DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{4460CE5A-2055-3EC6-9F7D-CA88141C02F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win">
+      <UniqueIdentifier>{706E64D0-3BA7-3399-9E91-ECE6B559F6D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\workspace\FireBreath\build\dwale\gen\firebreathWin.rc">
+      <Filter>Generated</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

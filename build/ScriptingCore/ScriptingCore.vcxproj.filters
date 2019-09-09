@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\variant.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\utf8_tools.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\URI.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Document.cpp">
+      <Filter>DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Element.cpp">
+      <Filter>DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Node.cpp">
+      <Filter>DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Window.cpp">
+      <Filter>DOM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\Util\JSFakeArray.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIAuto.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIImpl.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIProxy.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPISimple.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\BrowserHost.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\CrossThreadCall.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSFunction.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\JSEvent.cpp">
+      <Filter>JSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\ScriptingCore\precompiled_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\APITypes.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\variant.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\variant_conversions.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\variant_list.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\variant_map.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\TypeIDMap.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\utf8_tools.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\URI.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\SafeQueue.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSExceptions.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\FBPointers.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\ShareableReference.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\logging.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\DOM.h">
+      <Filter>DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Document.h">
+      <Filter>DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Element.h">
+      <Filter>DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Node.h">
+      <Filter>DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\DOM\Window.h">
+      <Filter>DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\Util\JSFakeArray.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\Util\meta_util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\Util\meta_util_impl.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\Util\typesafe_event.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPI.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIAuto.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIImpl.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPIProxy.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSAPISimple.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\BrowserHost.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSObject.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\CrossThreadCall.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\AsyncFunctionCall.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\MethodConverter.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\PropertyConverter.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSCallback.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSFunction.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\JSEvent.h">
+      <Filter>JSAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\ConverterUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\TestJSAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\ScriptingCore\precompiled_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\FireBreath\src\ScriptingCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\workspace\FireBreath\src\ScriptingCore\dispatch_gen.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12F29196-644E-38E0-B3BA-C3A6A074205A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5868B3B-5AEF-34B0-A552-ABAA48EDB6DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DOM">
+      <UniqueIdentifier>{8974470D-0E7E-3FDB-ACB3-D94AC82C0E2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{EA85ED6C-F117-3917-860D-2A79D0EEE80C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSAPI">
+      <UniqueIdentifier>{2923554A-3F03-3A73-99AD-73C952BE71D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{DE4B3AE4-B381-3685-91F9-05C5FF17A623}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

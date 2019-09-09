@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CF8464EB-9095-38ED-9391-49D6D7E77134}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ActiveXCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\workspace\FireBreath\build\ActiveXCore\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ActiveXCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ActiveXCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\workspace\FireBreath\build\ActiveXCore\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ActiveXCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ActiveXCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\workspace\FireBreath\build\ActiveXCore\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ActiveXCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ActiveXCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\workspace\FireBreath\build\ActiveXCore\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ActiveXCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ActiveXCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;DEBUG;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm256 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4290</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDLL;FB_WIN=1;XP_WIN=1;UNICODE;_UNICODE;_WINDOWS;BOOST_ALL_NO_LIB=1;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workspace\FireBreath\src\ActiveXCore;D:\workspace\FireBreath\src\ScriptingCore;D:\workspace\FireBreath\src\PluginCore;D:\workspace\FireBreath\src\config;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;D:\workspace\FireBreath\src\3rdParty\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\ActiveXBrowserHost.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\ComVariantUtil.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\COMJavascriptObject.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\IDispatchAPI.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\JSAPI_IDispatchEx.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\ActiveXFactoryDefinitions.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\FBControl.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\axstream.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\axstream_impl.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\axutil.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\registrymap.hpp" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Document.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Element.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Node.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Window.h" />
+    <ClInclude Include="D:\workspace\FireBreath\src\ActiveXCore\precompiled_headers.h" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\ActiveXBrowserHost.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\IDispatchAPI.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\JSAPI_IDispatchEx.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\FBControl.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\axstream.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\axstream_impl.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\axutil.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Document.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Element.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Node.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\AXDOM\Window.cpp" />
+    <ClCompile Include="D:\workspace\FireBreath\src\ActiveXCore\precompiled_headers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/workspace/FireBreath/build/PluginCore/PluginCore.vcxproj">
+      <Project>E4212DBC-1717-3359-AE4B-C082AD69D722</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/ScriptingCore/ScriptingCore.vcxproj">
+      <Project>B7502081-89AA-3A4A-9BF6-ACF8756D2AC3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/system/boost_system.vcxproj">
+      <Project>771EA940-429A-30F8-9FDF-5EE2A15D7F1C</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/workspace/FireBreath/build/boost/libs/thread/boost_thread.vcxproj">
+      <Project>84AFFAC8-F929-3579-9DCA-412BE6EF570F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

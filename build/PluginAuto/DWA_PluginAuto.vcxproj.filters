@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\PluginInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\precompiled_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\null\NullLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\axmain.cpp">
+      <Filter>WindowsATL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\axPluginObjects.cpp">
+      <Filter>WindowsATL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\dllmain.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\FireBreathWin.cpp">
+      <Filter>WindowsATL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\NpapiPluginWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\np_winmain.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\PluginWindowlessWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginAuto\Win\PluginWindowWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\build\projects\dwale\gen\FireBreathWin_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\precompiled_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Win\axmain.h">
+      <Filter>WindowsATL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Win\NpapiPluginWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Win\PluginWindowlessWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Win\PluginWindowWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\build\projects\dwale\gen\FireBreathWin.tlb" />
+    <ClInclude Include="D:\workspace\FireBreath\build\projects\dwale\gen\FireBreathWin_i.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\NpapiPluginMac.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginEventMac.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginWindowMac.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\FactoryDummiesMac.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginEventMac.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\NpapiPluginMac.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginWindowMac.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\np_macmain.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginWindowMacCG.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginWindowMacCG.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\KeyCodesCocoa.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginEventMacCocoa.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\PluginEventMacCocoa.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\Mac\KeyCodesCocoa.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\KeyCodesX11.h">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\NpapiPluginX11.h">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\PluginWindowX11.h">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\WindowContextX11.h">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\KeyCodesX11.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\NpapiPluginX11.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\np_x11main.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginAuto\X11\PluginWindowX11.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\FireBreath\src\PluginAuto\CMakeLists.txt" />
+    <CustomBuild Include="D:\workspace\FireBreath\build\CMakeFiles\06bdcba35c2a8495dff9750801f7d518\FireBreathWin.tlb.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\workspace\FireBreath\src\PluginAuto\DONTTOUCHTHISPROJECT.txt" />
+    <None Include="D:\workspace\FireBreath\src\PluginAuto\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12F29196-644E-38E0-B3BA-C3A6A074205A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5868B3B-5AEF-34B0-A552-ABAA48EDB6DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F9C2BDD-E337-3B5E-B760-0A7276728E5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X11">
+      <UniqueIdentifier>{CEE49987-6BED-30C8-9914-CEC2487DCE12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{D52EB22B-7B78-3B21-BAF9-11ACE0BF7D9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsATL">
+      <UniqueIdentifier>{7B4D09BE-3C73-394E-B95B-857E05345EF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac">
+      <UniqueIdentifier>{0C18D88E-C629-3A85-AD02-7A0B145790BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

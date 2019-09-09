@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\BrowserPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\BrowserStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\BrowserStreamManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\DefaultBrowserStreamHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\FactoryBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\PluginCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\PluginEventSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\precompiled_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\SimpleStreamHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\TimerService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\Win\KeyCodesWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\Win\SystemHelpersWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\Win\SystemProxyDetectorWin.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workspace\FireBreath\src\PluginCore\Win\WinMessageWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\AsyncDrawService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\BrowserPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\BrowserStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\BrowserStreamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\BrowserStreamRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\ConstructDefaultPluginWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\DefaultBrowserStreamHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\FactoryBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEventSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEventSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginWindowForwardDecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\precompiled_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\SimpleStreamHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\SystemHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\SystemProxyDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\TimerService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\AttachedEvent.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\DrawingEvents.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\GeneralEvents.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\KeyboardEvents.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\KeyCodes.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\MacEventCarbon.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\MacEventCocoa.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\MouseEvents.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\StreamEvents.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\WindowsEvent.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\X11Event.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\PluginEvents\X11NativeGdkEvent.h">
+      <Filter>PluginEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Win\KeyCodesWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Win\SystemProxyDetectorWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Win\WindowContextWin.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Win\WinMessageWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Mac\OneShotManager.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Mac\SystemProxyDetectorMac.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Mac\SystemProxyDetectorMac.cpp">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Mac\OneShotManager.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\Mac\SystemHelpersMac.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\X11\SystemProxyDetectorX11.h">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\X11\SystemHelpersX11.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workspace\FireBreath\src\PluginCore\X11\SystemProxyDetectorX11.cpp">
+      <Filter>X11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12F29196-644E-38E0-B3BA-C3A6A074205A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D5868B3B-5AEF-34B0-A552-ABAA48EDB6DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PluginEvents">
+      <UniqueIdentifier>{A0C74764-AC7C-3442-8E86-38D8F9B3875E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X11">
+      <UniqueIdentifier>{CEE49987-6BED-30C8-9914-CEC2487DCE12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{D52EB22B-7B78-3B21-BAF9-11ACE0BF7D9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac">
+      <UniqueIdentifier>{0C18D88E-C629-3A85-AD02-7A0B145790BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
